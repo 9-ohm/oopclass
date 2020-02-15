@@ -28,9 +28,15 @@ public class Pokemon{
     private int flinch;         //
     private int seeding;        //ฝังเมล็ดดูเลือด
     private int taunt;          //ใช้ท่าไม่ได้
+
+    //Defult Constructor
+    public Pokemon(){
+        
+    }
+    
 }
 
-public class ppotion{
+public class potion{
     private int hpPotion;
     private int ppPotion;
 }
