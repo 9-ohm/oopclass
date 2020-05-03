@@ -1,50 +1,78 @@
-import java.io.*;
 
-public class Pokemon{
-    private String name;
-    private String type;
-    private String sex;
+package pokemon;
+
+public class Pokemon {
+
+    private String Name;
     private int maxHp;
-    private int currentHp;
-    private int maxExp;
-    private int currentExp;
+    private int curHp;
     private int maxPp;
-    private int currentPp;
-    private int Attack;
-    private int s_Attack;
-    private int Def;
-    private int s_Def;
-    private int Speed;
-    private int number;
-    private int currentLvl;
-    private int maxLvl;
+    private int curPp;
+    private int Atk;
 
-    private int burn;           //
-    private int freeze;         //
-    private int poison;         //
-    private int badlypoison;    //
-    private int sleep;          //
-    private int confusion;      //
-    private int flinch;         //
-    private int seeding;        //
-    private int taunt;          
-
-    //Defult Constructor
-    public Pokemon(){
+    
+    
+    public Pokemon(String Name){
         
+        this.Name=Name;
+          
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+
+    public int getMaxHp() {
+        return maxHp;
+    }
+
+    public void setMaxHp(int maxHp) {
+        this.maxHp = maxHp;
+    }
+
+    public int getCurHp() {
+        return curHp;
+    }
+
+    public void setCurHp(int curHp) {
+        this.curHp = curHp;
+    }
+
+    public int getMaxPp() {
+        return maxPp;
+    }
+
+    public void setMaxPp(int maxPp) {
+        this.maxPp = maxPp;
+    }
+
+    public int getCurPp() {
+        return curPp;
+    }
+
+    public void setCurPp(int curPp) {
+        this.curPp = curPp;
+    }
+
+    public int getAtk() {
+        return Atk;
+    }
+
+    public void setAtk(int Atk) {
+        this.Atk = Atk;
+    }
+
+    void displayPokemon() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    int Attack() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+    
 }
-
-// public class potion{
-//     private int hpPotion;
-//     private int ppPotion;
-// }
-
-// public class ball{
-//     private String pokeboll;   //x1
-//     private String masterball; //maximum
-//     private String greatball;  //x1.5
-//     private String ultraball;  //x2
-// }
-
