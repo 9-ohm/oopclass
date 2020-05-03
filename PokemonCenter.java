@@ -1,8 +1,14 @@
-class PokemonCenter{
-    static String name ="kidmaiok";
-    static String managername="joy";
+package pokemon;
 
-    static void welcome(){
-        System.out.println("Wecome to Pokemoncenter");
+
+public class pokemonCenter {
+    private int restore;
+    public pokemonCenter(){
+    }
+    public int getRestore(){
+        return restore;
+    }
+    public void Restore(int MaxHp){
+        this.restore = MaxHp;
     }
 }
